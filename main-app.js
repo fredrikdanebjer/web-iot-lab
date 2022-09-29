@@ -189,7 +189,7 @@ export class MainApp extends HTMLElement {
         const {pressed} = evt.detail;
 
         // Set the color of the LED on the Thingy52 to red on pressed and green on released
-        Thingy52Driver.setLED(pressed ? 255 : 0, pressed ? 0 : 255, 0);
+        Thingy52Driver.setLED(pressed ? 255 : 0, 0, pressed ? 0 : 255);
 
         this.#infobox.setValues({Button:`${pressed ? "DOWN" : "UP"}`});
     }
