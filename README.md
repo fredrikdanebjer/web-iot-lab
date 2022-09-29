@@ -7,7 +7,7 @@ Draft version supporting:
 * Button
 * RGB LED
 
-**[Try it out here!](https://larsgk.github.io/web-iot-lab/)**
+**[Try it out here!](https://fredrikdanebjer.github.io/web-iot-lab/)**
 
 ## Prerequisites
 
